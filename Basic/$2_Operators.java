@@ -8,7 +8,7 @@
 
 package Basic;
 
-public class Operators {
+public class $2_Operators {
 
     public static void main(String[] args) {
         arithmeticOperators();

@@ -1,14 +1,14 @@
 /**
  *
  * Title: Learning Primitive Data Types in Java
- *
+ * <p>
  * Author: Dinesh Chinnasamy
  *
  */
 
 package Basic;
 
-public class PrimitiveDataType {
+public class $1_PrimitiveDataType {
     public static void main(String[] args) {
         learningInteger();
         learningChar();
@@ -35,7 +35,7 @@ public class PrimitiveDataType {
     }
 
     public static void learningChar() {
-        char charVariable = 'a'; // 16-bit unicode character
+        char charVariable = 'a'; // 16-bit Unicode character
         System.out.println("Char: "+charVariable);
     }
 
@@ -45,7 +45,7 @@ public class PrimitiveDataType {
     }
 
     public static void learnigTypeCasting() {
-        int typecast2Byte = (byte)214748364; // only can be applied on higher datatype to lowerdatatype
+        int typecast2Byte = (byte)214748364; // only can be applied on higher datatype to lower-datatype
         System.out.println("int2byte: "+typecast2Byte);
     }
 
