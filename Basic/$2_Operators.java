@@ -68,7 +68,7 @@ public class $2_Operators {
         int b1 = a--;
         System.out.println("a--: " + b1);
         b1 = --a;
-        System.out.println("--a: " + b);
+        System.out.println("--a: " + b1);
 
         // ! : Logical not operator, used for inverting a boolean value.
         System.out.println("c: " + (!c));
