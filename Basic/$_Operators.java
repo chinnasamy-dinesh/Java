@@ -8,7 +8,7 @@
 
 package Basic;
 
-public class $2_Operators {
+public class $_Operators {
 
     public static void main(String[] args) {
         arithmeticOperators();
