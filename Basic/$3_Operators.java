@@ -8,7 +8,7 @@
 
 package Basic;
 
-public class $_Operators {
+public class $3_Operators {
 
     public static void main(String[] args) {
         arithmeticOperators();
@@ -39,6 +39,7 @@ public class $_Operators {
         System.out.println("a1 + b1 = " + (a1 + b1));
     }
 
+    //
     public static void unaryOperators() {
 
         // Unary operators need only one operand. They are used to increment, decrement, or negate a value. (+, -, ++, --, !)
