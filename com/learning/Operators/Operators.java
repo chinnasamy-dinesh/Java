@@ -6,9 +6,9 @@
  *
  */
 
-package Basic;
+package com.learning.Operators;
 
-public class $3_Operators {
+public class Operators {
 
     public static void main(String[] args) {
         arithmeticOperators();
