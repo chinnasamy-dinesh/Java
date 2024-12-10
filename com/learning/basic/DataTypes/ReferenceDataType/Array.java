@@ -6,7 +6,7 @@
  *
  */
 
-package com.learning.DataTypes.ReferenceDataType;
+package com.learning.basic.DataTypes.ReferenceDataType;
 
 import java.util.Arrays;
 

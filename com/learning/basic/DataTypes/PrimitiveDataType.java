@@ -6,7 +6,7 @@
  *
  */
 
-package com.learning.DataTypes;
+package com.learning.basic.DataTypes;
 
 public class PrimitiveDataType {
     public static void main(String[] args) {
