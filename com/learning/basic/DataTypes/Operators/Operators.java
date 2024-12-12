@@ -6,7 +6,7 @@
  *
  */
 
-package com.learning.Operators;
+package com.learning.basic.DataTypes.Operators;
 
 public class Operators {
 
