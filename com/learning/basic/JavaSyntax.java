@@ -1,5 +1,5 @@
 //package name where the java file is stored
-package com.learning.basic.DataTypes;
+package com.learning.basic;
 
 // File name should match teh public class name
 public class JavaSyntax {
