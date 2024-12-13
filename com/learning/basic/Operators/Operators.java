@@ -161,5 +161,4 @@ public class Operators {
         System.out.println("Right shift Multplies by Power of 2 a>>1 : " + (a >> 1));
     }
 
-
 }
