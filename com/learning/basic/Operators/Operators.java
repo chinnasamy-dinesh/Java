@@ -13,21 +13,18 @@ public class Operators {
     static int a = 15, b = 10, c = 25;
 
     public static void main(String[] args) {
-//      arithmeticOperators();
-//      unaryOperators();
-//      assignmentOperator();
-//      relationalOperator();
-//      logicalOperator();
-//      ternaryOperator();
-
+      arithmeticOperators();
+      unaryOperators();
+      assignmentOperator();
+      relationalOperator();
+      logicalOperator();
+      ternaryOperator();
+      shiftOperator();
     }
 
     public static void arithmeticOperators() {
 
         // They are used to perform simple arithmetic operations on primitive and non-primitive data types.
-
-        // Arithmetic operators on integers
-
 
         // Arithmetic operators on Strings
         String num1 = "15";
@@ -153,7 +150,16 @@ public class Operators {
 
         System.out.println("\nTernery Operator\nValue of a = 10 and value b = 9");
         System.out.println("is a greater than b with statement:" + (a>b ? "A is greater than B" : "A is less than b"));
-        System.out.println("is a greater than b as boolean outcome:" + (a>b ? true : false ));
+        System.out.println("is a less than b as boolean outcome:" + (a<b ? true : false ));
     }
+
+    public static void shiftOperator(){
+        // Using left shift multiples the variable by power of 2;
+        System.out.println("left shift Multplies by Power of 2 a<<1 : " + (a << 1));
+
+        // Using right shift divides the variable of power of 2;
+        System.out.println("Right shift Multplies by Power of 2 a>>1 : " + (a >> 1));
+    }
+
 
 }
