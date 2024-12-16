@@ -63,17 +63,17 @@ public class Operators {
         //  Post-Increment: Value is first used for computing the result and then incremented.
         //  Pre-Increment: Value is incremented first, and then the result is computed.
         b = a++;
-        System.out.println("Postincrement++: " + b);
+        System.out.println("Post-increment++: " + b);
         b = ++a;
-        System.out.println("++Preincrement: " + b);
+        System.out.println("++Pre-increment: " + b);
 
         // –– : Decrement operator, used for decrementing the value by 1. There are two varieties of decrement operators.
         //  Post-decrement: Value is first used for computing the result and then decremented.
         //  Pre-Decrement: The value is decremented first, and then the result is computed.
         int b1 = a--;
-        System.out.println("Postdecrement--: " + b1);
+        System.out.println("Post-decrement--: " + b1);
         b1 = --a;
-        System.out.println("--Predecrement: " + b1);
+        System.out.println("--Pre-decrement: " + b1);
 
         // ! : Logical not operator, used for inverting a boolean value.
         System.out.println("(!)Inverts a boolean value: " + (!c));
@@ -131,7 +131,7 @@ public class Operators {
     }
 
     public static void logicalOperator(){
-        // Logical Operators are used to perform logical conditions "AND (&&)”,“OR (||)” and "Not (!)"operations
+        // Logical Operators are used to perform logical conditions 'AND (&&)','OR (||)' and 'Not (!)'operations
 
         // &&, Logical AND: returns true when both conditions are true.
         System.out.println("\nLogical Operators\nValue of a & a1 = 15, b & b1 = 10, c = 25");
@@ -140,25 +140,25 @@ public class Operators {
         //||, Logical OR: returns true if at least one condition is true.
         System.out.println("a greater than b AND c less than b: " + ((a>b) || (c<b)));
 
-        //!, Logical NOT: returns true when a condition is false and vice-versa
-        System.out.println("Not conditon a less than b: " + (!(a<b)));
+        //!, Logical NOT: returns true when a condition is false and vice versa
+        System.out.println("Not condition a less than b: " + (!(a<b)));
     }
 
     public static void ternaryOperator(){
         //  Ternary Operator is a shorthand version of the if-else statement. I
-        //  It has three operands and hence the name Ternary. The general format is condition ? if true : if false
+        //  Three operands and hence the name Ternary. The general format is condition ? if true : false
 
-        System.out.println("\nTernery Operator\nValue of a = 10 and value b = 9");
+        System.out.println("\nTernary Operator\nValue of a = 10 and value b = 9");
         System.out.println("is a greater than b with statement:" + (a>b ? "A is greater than B" : "A is less than b"));
-        System.out.println("is a less than b as boolean outcome:" + (a<b ? true : false ));
+        System.out.println("is a less than b as boolean outcome:" + (a<b ? "true" : "false"));
     }
 
     public static void shiftOperator(){
         // Using left shift multiples the variable by power of 2;
-        System.out.println("left shift Multplies by Power of 2 a<<1 : " + (a << 1));
+        System.out.println("left shift Multiples by Power of 2 a<<1 : " + (a << 1));
 
         // Using right shift divides the variable of power of 2;
-        System.out.println("Right shift Multplies by Power of 2 a>>1 : " + (a >> 1));
+        System.out.println("Right shift Multiples by Power of 2 a>>1 : " + (a >> 1));
     }
 
 }
