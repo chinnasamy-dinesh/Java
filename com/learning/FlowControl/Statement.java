@@ -25,7 +25,7 @@ public class Statement {
 
     public static void ifElseStatement(){
 
-        System.out.println("\n If Else Statement:");
+        System.out.println("\nIf Else Statement:");
         // i is initialized to 10
         int i = 10;
 
@@ -44,6 +44,7 @@ public class Statement {
     public static void  nestedIfStatement(){
 
         // Nested if statement
+        System.out.println("\nNested If Statement:");
         int a = 25;
         double w = 65.5;
 
@@ -60,6 +61,7 @@ public class Statement {
 
     public static void ifElseIFLadder(){
 
+        System.out.println("\nIf Else IF Ladder Statement:");
         int i = 20;
 
         // if-else-if ladder to check the value of i i == 10 is checked, It evaluates to false because i is 20
